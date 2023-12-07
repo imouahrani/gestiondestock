@@ -1,8 +1,6 @@
 package com.imouahrani.gestiondestock.config;
 
-import static com.imouahrani.gestiondestock.utils.Constants.APP_ROOT;
 
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import org.springframework.context.annotation.Bean;
@@ -38,7 +36,7 @@ public class SwaggerConfiguration {
         .securitySchemes(Collections.singletonList(apiKey()))
         .useDefaultResponseMessages(false)
         .select()
-        .apis(RequestHandlerSelectors.basePackage("com.bouali.gestiondestock"))
+        .apis(RequestHandlerSelectors.basePackage("com.imouahrani.gestiondestock"))
         .paths(PathSelectors.any())
         .build();
   }

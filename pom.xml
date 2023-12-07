@@ -100,15 +100,14 @@
 							<locations>
 								<location>com.imouahrani.gestiondestock.controller.api</location>
 							</locations>
-							<basePath>http://localhost:8081</basePath>
+							<basePath>http://localhost:8080</basePath>
 							<info>
 								<title>Swagger Api Documentation for Gestion de stock application</title>
 								<version>${project.version}</version>
 								<description>Swagger Api documentation for Gestion de stock application</description>
 								<contact>
-									<email>imouahrani.social@gmail.com</email>
-									<name>Imene OUAHRANI</name>
-									<url>https://www.udemy.com/user/bouali-ali/</url>
+									<email>bouali.social@gmail.com</email>
+									<name>Imene Ouahrani</name>
 								</contact>
 							</info>
 							<outputPath>${project.build.directory}</outputPath>
