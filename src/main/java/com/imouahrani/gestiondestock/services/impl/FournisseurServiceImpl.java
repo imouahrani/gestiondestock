@@ -1,15 +1,15 @@
 package com.imouahrani.gestiondestock.services.impl;
 
-import com.bouali.gestiondestock.dto.FournisseurDto;
-import com.bouali.gestiondestock.exception.EntityNotFoundException;
-import com.bouali.gestiondestock.exception.ErrorCodes;
-import com.bouali.gestiondestock.exception.InvalidEntityException;
-import com.bouali.gestiondestock.exception.InvalidOperationException;
-import com.bouali.gestiondestock.model.CommandeClient;
-import com.bouali.gestiondestock.repository.CommandeFournisseurRepository;
-import com.bouali.gestiondestock.repository.FournisseurRepository;
-import com.bouali.gestiondestock.services.FournisseurService;
-import com.bouali.gestiondestock.validator.FournisseurValidator;
+import com.imouahrani.gestiondestock.dto.FournisseurDto;
+import com.imouahrani.gestiondestock.exception.EntityNotFoundException;
+import com.imouahrani.gestiondestock.exception.ErrorCodes;
+import com.imouahrani.gestiondestock.exception.InvalidEntityException;
+import com.imouahrani.gestiondestock.exception.InvalidOperationException;
+import com.imouahrani.gestiondestock.model.CommandeClient;
+import com.imouahrani.gestiondestock.repository.CommandeFournisseurRepository;
+import com.imouahrani.gestiondestock.repository.FournisseurRepository;
+import com.imouahrani.gestiondestock.services.FournisseurService;
+import com.imouahrani.gestiondestock.validator.FournisseurValidator;
 import java.util.List;
 import java.util.stream.Collectors;
 import lombok.extern.slf4j.Slf4j;

@@ -1,6 +1,6 @@
 package com.imouahrani.gestiondestock.services;
 
-import com.bouali.gestiondestock.dto.FournisseurDto;
+import com.imouahrani.gestiondestock.dto.FournisseurDto;
 import java.util.List;
 
 public interface FournisseurService {

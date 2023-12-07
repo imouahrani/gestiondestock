@@ -1,6 +1,6 @@
 package com.imouahrani.gestiondestock.services.impl;
 
-import com.bouali.gestiondestock.services.FlickrService;
+import com.imouahrani.gestiondestock.services.FlickrService;
 import com.flickr4java.flickr.Flickr;
 import com.flickr4java.flickr.FlickrException;
 import com.flickr4java.flickr.REST;

@@ -1,6 +1,6 @@
 package com.imouahrani.gestiondestock.services;
 
-import com.bouali.gestiondestock.dto.MvtStkDto;
+import com.imouahrani.gestiondestock.dto.MvtStkDto;
 import java.math.BigDecimal;
 import java.util.List;
 

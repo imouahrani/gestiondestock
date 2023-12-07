@@ -1,9 +1,9 @@
 package com.imouahrani.gestiondestock.services;
 
-import com.bouali.gestiondestock.dto.ArticleDto;
-import com.bouali.gestiondestock.dto.LigneCommandeClientDto;
-import com.bouali.gestiondestock.dto.LigneCommandeFournisseurDto;
-import com.bouali.gestiondestock.dto.LigneVenteDto;
+import com.imouahrani.gestiondestock.dto.ArticleDto;
+import com.imouahrani.gestiondestock.dto.LigneCommandeClientDto;
+import com.imouahrani.gestiondestock.dto.LigneCommandeFournisseurDto;
+import com.imouahrani.gestiondestock.dto.LigneVenteDto;
 import java.util.List;
 
 public interface ArticleService {

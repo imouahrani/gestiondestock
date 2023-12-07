@@ -1,8 +1,8 @@
 package com.imouahrani.gestiondestock.services;
 
-import com.bouali.gestiondestock.dto.CommandeClientDto;
-import com.bouali.gestiondestock.dto.LigneCommandeClientDto;
-import com.bouali.gestiondestock.model.EtatCommande;
+import com.imouahrani.gestiondestock.dto.CommandeClientDto;
+import com.imouahrani.gestiondestock.dto.LigneCommandeClientDto;
+import com.imouahrani.gestiondestock.model.EtatCommande;
 import java.math.BigDecimal;
 import java.util.List;
 

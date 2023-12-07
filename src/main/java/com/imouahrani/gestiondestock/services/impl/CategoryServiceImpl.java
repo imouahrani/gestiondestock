@@ -1,15 +1,15 @@
 package com.imouahrani.gestiondestock.services.impl;
 
-import com.bouali.gestiondestock.dto.CategoryDto;
-import com.bouali.gestiondestock.exception.EntityNotFoundException;
-import com.bouali.gestiondestock.exception.ErrorCodes;
-import com.bouali.gestiondestock.exception.InvalidEntityException;
-import com.bouali.gestiondestock.exception.InvalidOperationException;
-import com.bouali.gestiondestock.model.Article;
-import com.bouali.gestiondestock.repository.ArticleRepository;
-import com.bouali.gestiondestock.repository.CategoryRepository;
-import com.bouali.gestiondestock.services.CategoryService;
-import com.bouali.gestiondestock.validator.CategoryValidator;
+import com.imouahrani.gestiondestock.dto.CategoryDto;
+import com.imouahrani.gestiondestock.exception.EntityNotFoundException;
+import com.imouahrani.gestiondestock.exception.ErrorCodes;
+import com.imouahrani.gestiondestock.exception.InvalidEntityException;
+import com.imouahrani.gestiondestock.exception.InvalidOperationException;
+import com.imouahrani.gestiondestock.model.Article;
+import com.imouahrani.gestiondestock.repository.ArticleRepository;
+import com.imouahrani.gestiondestock.repository.CategoryRepository;
+import com.imouahrani.gestiondestock.services.CategoryService;
+import com.imouahrani.gestiondestock.validator.CategoryValidator;
 import java.util.List;
 import java.util.stream.Collectors;
 import lombok.extern.slf4j.Slf4j;

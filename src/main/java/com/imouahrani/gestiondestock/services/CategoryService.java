@@ -1,6 +1,6 @@
 package com.imouahrani.gestiondestock.services;
 
-import com.bouali.gestiondestock.dto.CategoryDto;
+import com.imouahrani.gestiondestock.dto.CategoryDto;
 import java.util.List;
 
 public interface CategoryService {

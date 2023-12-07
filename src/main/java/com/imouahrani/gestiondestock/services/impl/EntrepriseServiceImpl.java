@@ -1,16 +1,16 @@
 package com.imouahrani.gestiondestock.services.impl;
 
-import com.bouali.gestiondestock.dto.EntrepriseDto;
-import com.bouali.gestiondestock.dto.RolesDto;
-import com.bouali.gestiondestock.dto.UtilisateurDto;
-import com.bouali.gestiondestock.exception.EntityNotFoundException;
-import com.bouali.gestiondestock.exception.ErrorCodes;
-import com.bouali.gestiondestock.exception.InvalidEntityException;
-import com.bouali.gestiondestock.repository.EntrepriseRepository;
-import com.bouali.gestiondestock.repository.RolesRepository;
-import com.bouali.gestiondestock.services.EntrepriseService;
-import com.bouali.gestiondestock.services.UtilisateurService;
-import com.bouali.gestiondestock.validator.EntrepriseValidator;
+import com.imouahrani.gestiondestock.dto.EntrepriseDto;
+import com.imouahrani.gestiondestock.dto.RolesDto;
+import com.imouahrani.gestiondestock.dto.UtilisateurDto;
+import com.imouahrani.gestiondestock.exception.EntityNotFoundException;
+import com.imouahrani.gestiondestock.exception.ErrorCodes;
+import com.imouahrani.gestiondestock.exception.InvalidEntityException;
+import com.imouahrani.gestiondestock.repository.EntrepriseRepository;
+import com.imouahrani.gestiondestock.repository.RolesRepository;
+import com.imouahrani.gestiondestock.services.EntrepriseService;
+import com.imouahrani.gestiondestock.services.UtilisateurService;
+import com.imouahrani.gestiondestock.validator.EntrepriseValidator;
 import java.time.Instant;
 import java.util.List;
 import java.util.stream.Collectors;

@@ -1,7 +1,7 @@
 package com.imouahrani.gestiondestock.services;
 
-import com.bouali.gestiondestock.dto.ChangerMotDePasseUtilisateurDto;
-import com.bouali.gestiondestock.dto.UtilisateurDto;
+import com.imouahrani.gestiondestock.dto.ChangerMotDePasseUtilisateurDto;
+import com.imouahrani.gestiondestock.dto.UtilisateurDto;
 import java.util.List;
 
 public interface UtilisateurService {

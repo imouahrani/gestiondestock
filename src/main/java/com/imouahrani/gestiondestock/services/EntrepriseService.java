@@ -1,6 +1,6 @@
 package com.imouahrani.gestiondestock.services;
 
-import com.bouali.gestiondestock.dto.EntrepriseDto;
+import com.imouahrani.gestiondestock.dto.EntrepriseDto;
 import java.util.List;
 
 public interface EntrepriseService {

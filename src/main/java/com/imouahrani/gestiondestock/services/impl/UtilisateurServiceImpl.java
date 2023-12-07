@@ -1,15 +1,15 @@
 package com.imouahrani.gestiondestock.services.impl;
 
-import com.bouali.gestiondestock.dto.ChangerMotDePasseUtilisateurDto;
-import com.bouali.gestiondestock.dto.UtilisateurDto;
-import com.bouali.gestiondestock.exception.EntityNotFoundException;
-import com.bouali.gestiondestock.exception.ErrorCodes;
-import com.bouali.gestiondestock.exception.InvalidEntityException;
-import com.bouali.gestiondestock.exception.InvalidOperationException;
-import com.bouali.gestiondestock.model.Utilisateur;
-import com.bouali.gestiondestock.repository.UtilisateurRepository;
-import com.bouali.gestiondestock.services.UtilisateurService;
-import com.bouali.gestiondestock.validator.UtilisateurValidator;
+import com.imouahrani.gestiondestock.dto.ChangerMotDePasseUtilisateurDto;
+import com.imouahrani.gestiondestock.dto.UtilisateurDto;
+import com.imouahrani.gestiondestock.exception.EntityNotFoundException;
+import com.imouahrani.gestiondestock.exception.ErrorCodes;
+import com.imouahrani.gestiondestock.exception.InvalidEntityException;
+import com.imouahrani.gestiondestock.exception.InvalidOperationException;
+import com.imouahrani.gestiondestock.model.Utilisateur;
+import com.imouahrani.gestiondestock.repository.UtilisateurRepository;
+import com.imouahrani.gestiondestock.services.UtilisateurService;
+import com.imouahrani.gestiondestock.validator.UtilisateurValidator;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
